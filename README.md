@@ -2,7 +2,7 @@
 
 Stacks:
 - Soal 1-3 menggunakan Javascript
-- 4A, xampp mysql
+- 4A, xampp mysql, Jalankan command prompt untuk buat databasenya
 - 4B, Php, xampp apache dan mysql
 
 # Cara menjalankan Jawaban No. 4B
