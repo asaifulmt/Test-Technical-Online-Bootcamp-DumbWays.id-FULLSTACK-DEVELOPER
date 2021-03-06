@@ -32,7 +32,7 @@
           echo '
             <div class="col-3">
               <div class="card">
-                <img src="'.$data['thumbnail'].'" class="card-img-top" alt="'.$data['course_name'].'">
+                <img src="'.$data['thumbnail'].'" class="card-img-top" style="height:150px;" alt="'.$data['course_name'].'">
                 <div class="card-body" style="height: 160px;">
                   <div class="d-flex justify-content-between">
                     <h5 class="card-title">'.$data['course_name'].'</h5>

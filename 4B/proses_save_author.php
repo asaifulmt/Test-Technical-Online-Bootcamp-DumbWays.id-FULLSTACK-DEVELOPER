@@ -6,7 +6,7 @@
     $author_name = $_POST['author_name'];
 
     // Proses simpan ke Database
-    $sql = $pdo->prepare("INSERT INTO course(name) VALUES (:name_author)");
+    $sql = $pdo->prepare("INSERT INTO author(name) VALUES (:name_author)");
     $sql->bindParam(':name_author', $author_name);
     $sql->execute();
 
